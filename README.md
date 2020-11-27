@@ -1,6 +1,6 @@
-# Serverless demo with Azure Cosmos DB - Based upon Change feed Lab (See below)
+# Dapr demo with Azure Cosmos DB - Based upon Change feed Lab (See below)
 
-This is a demo for session "Cosmos DB as the event store hero for Serverless event-driven applications". This demo is based on the "Change Feed Lab" (https://azure.microsoft.com/en-us/resources/samples/azure-cosmos-db-change-feed-dotnet-retail-sample/). All instructions for the lab is added below.
+This is a rewrite of the the demo for session "Cosmos DB as the event store hero for Serverless event-driven applications" to use Dapr. This demo is based on the "Change Feed Lab" (https://azure.microsoft.com/en-us/resources/samples/azure-cosmos-db-change-feed-dotnet-retail-sample/). All instructions for the lab is added below.
 
 The purpose of the demo is to show the power of Azure Functions together with the Cosmos DB change feed, especially the use of the built in Change Feed Processor in Azure Functions, Durable Functions, Entity Functions (currently in public preview) and some nice features like streaming to PowerBI and possible use of Cognitve Services.
 
