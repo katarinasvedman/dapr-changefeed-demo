@@ -3,6 +3,14 @@
   "extensions": {
     "durableTask": {
       "hubName": "kapeltol"
-    }
+    },
+    "logging": {
+      "applicationInsights": {
+          "samplingExcludedTypes": "Request",
+          "samplingSettings": {
+              "isEnabled": true
+          }
+      }
+  }
   }
 }
